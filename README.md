@@ -1,6 +1,12 @@
 # Water Potability Prediction — ML Project
 
 
+## Project Links
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Vt6MAKRpaRp_scRK_dInba9ca9MnC_iM#scrollTo=v3ThowS_6ats)
+
+
+
 This project demonstrates a real-world machine learning workflow to predict whether water is potable (safe to drink) using physicochemical parameters from a publicly available dataset. It covers data cleaning, preprocessing, modeling, evaluation, and hyperparameter optimization.
 
 
@@ -17,16 +23,20 @@ Each record corresponds to a water sample with features such as:
 
 ## Feature	Description
 
-pH	Acidity / alkalinity level
-Hardness	Total dissolved salts (Ca, Mg)
-Solids	Dissolved solids in water
-Chloramines	Disinfectant concentration
-Sulfate	Salt presence from sulphur compounds
-Conductivity	Ionic concentration measure
-Organic Carbon	Organic content in water
-Trihalomethanes	By-product of disinfection
-Turbidity	Water clarity
-Potability	Target (0 = not potable, 1 = potable)
+Each record corresponds to a water sample with features such as:
+
+| **Feature**          | **Description**                                 |
+|-----------------------|-------------------------------------------------|
+| pH                   | Acidity / alkalinity level                      |
+| Hardness             | Total dissolved salts (Ca, Mg)                  |
+| Solids               | Dissolved solids in water                       |
+| Chloramines          | Disinfectant concentration                      |
+| Sulfate              | Salt presence from sulphur compounds            |
+| Conductivity         | Ionic concentration measure                     |
+| Organic Carbon       | Organic content in water                        |
+| Trihalomethanes      | By-product of disinfection                      |
+| Turbidity            | Water clarity                                   |
+| **Potability**       | Target (0 = not potable, 1 = potable)           |
 
 Dataset size: ~3,200+ samples
 – Numerous missing values, outliers, and class imbalance issues included.
@@ -110,6 +120,3 @@ Dataset size: ~3,200+ samples
 	•	Colab templates & notebook environment
 
 
-## Project Links
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Vt6MAKRpaRp_scRK_dInba9ca9MnC_iM#scrollTo=v3ThowS_6ats)
